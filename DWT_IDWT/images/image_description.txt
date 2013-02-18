@@ -1,0 +1,8 @@
+image size :
+w = 352
+h = 288
+
+The .rgb file is special format of raw rgb format image file without the header information.
+It consists of stack of R, G and B pixel values (1 byte for each value).
+So, all the R values(Width x Height) are fist , and then G values, 
+and the last part of the image file is the set of B values.
